@@ -1,5 +1,5 @@
 const info = function getInfo() {
-    return fetch('https://rickandmortyapi.com/api/character/2')
+    return fetch('https://rickandmortyapi.com/api/character/3')
       .then(response => {
         return response.json();
       });
